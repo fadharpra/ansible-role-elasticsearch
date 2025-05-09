@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  role_name: elasticsearch
+  author: Fadhli Ari Pratama
+  description: Patched Elasticsearch role for Graylog deployment
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+    - name RedHat
+        - 7
+        - 8
+  - galaxy_tags:
+    - elastic
+    - elasticsearch
+    - elk
+    - logging
+dependencies: []
+
